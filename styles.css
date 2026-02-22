@@ -1,6 +1,7 @@
 body {
     font-family: 'Righteous', cursive;
     background-color: #cccccc;
+    background-image: url(img/1045.png);
 
 }
 
@@ -47,7 +48,7 @@ li a:hover {
     padding: 8px;
     font-size: 50px;
     color: #222831;
-
+    
 }
 
 .conP {
@@ -75,27 +76,25 @@ li a:hover {
     border-radius: 0px;
     }
 
-
-.dropdown {
-    position: relative;
-    display: inline-block;
-}
-
-.dropdown-content {
-    display: none;
-    position: absolute;
-    background-color: #f9f9f9;
-    min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-    padding: 12px 16px;
-    z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-    display: block;
-}
-
 .meme {
     float: left;
     display: inline;
+}
+/* grid layout */
+.container {
+  display: grid;
+  grid: auto auto auto / auto auto ;
+  grid-gap: 0px;
+  padding: 0px;
+
+}
+.container div {
+  padding: 4px;
+  text-align: left;
+  /* background: #cccccc; */
+  /* border: 1px solid rgba(195, 195, 195, 0.5); */
+}
+.container div a{
+  padding: 0px;
+  text-align: left;
 }
